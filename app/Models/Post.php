@@ -4,12 +4,13 @@ namespace App\Models;
 
 use App\User;
 use Carbon\Carbon;
+use GrahamCampbell\Markdown\Facades\Markdown;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Post extends Model
 {
-//    protected $guarded = [];
+
 
     protected $dates = ['published_at'];
     /**
@@ -36,9 +37,19 @@ class Post extends Model
         return $imageUrl;
     }
 
-    public function getDateAttribute()
+    public function getDateAttribute($value)
     {
         return is_null($this->published_at) ? '' :  $this->published_at->diffForHumans();
+    }
+
+    public function getBodyHtmlAttribute($value)
+    {
+        return $this->body ? Markdown::convertToHtml(e($this->body)) : NULL;
+    }
+
+    public function getExcerptHtmlAttribute($value)
+    {
+        return $this->excerpt ? Markdown::convertToHtml(e($this->excerpt)) : NULL;
     }
 
     public function scopeLatestFirst($query)
@@ -50,4 +61,6 @@ class Post extends Model
     {
         return $query->where('published_at', "<=" , Carbon::now());
     }
+
+
 }

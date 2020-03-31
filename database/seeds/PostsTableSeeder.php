@@ -17,7 +17,7 @@ class PostsTableSeeder extends Seeder
         DB::table('posts')->delete();
         $faker = Factory::create();
 
-        $date = Carbon::create(2020, 3, 30, 9);
+        $date = Carbon::create(2020, 3, 31, 9);
         $posts = [];
 
         for ($i = 0; $i < 10 ; $i++){
@@ -37,7 +37,7 @@ class PostsTableSeeder extends Seeder
                 'image' => rand(0,1)  == 1 ? $image : NULL,
                 'created_at' => $createdDate,
                 'updated_at' => $createdDate,
-                'published_at' => $i < 5 && $publishedDate ? NULL : ( rand(0,1) == 0 ? NULL : $publishedDate->addDays(4))
+                'published_at' => $i < 5 && $publishedDate ? NULL : ( rand(0,1) == 0 ? NULL : $publishedDate->addDays(4)),
             ];
         }
 
