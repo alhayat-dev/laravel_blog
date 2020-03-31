@@ -9,7 +9,7 @@
 
                     @if($post->image_url)
                         <div class="post-item-image">
-                            <img src="{{ $post->image_url }}" alt="">
+                             <img src="{{ $post->image_url }}" alt="">
                         </div>
                     @endif
 
@@ -34,8 +34,8 @@
                 <article class="post-author padding-10">
                     <div class="media">
                         <div class="media-left">
-                            <a href="#">
-                                <img alt="Author 1" src="{{ url('img/author.jpg') }}" class="media-object">
+                            <a href="{{ route('author', $post->author->slug) }}">
+                                <img alt="{{ $post->author->name }}" width="100" height="100" src="{{ $post->author->gravatar() }}" class="media-object">
                             </a>
                         </div>
                         <div class="media-body">
@@ -45,12 +45,12 @@
                                     <i class="fa fa-clone"></i>
 
                                     @php
-                                        $postCount = $post->author->posts->count();
+                                        $postCount = $post->author->posts()->published()->count();
                                     @endphp
                                     {{ $postCount }} {{ Str::plural('post', $postCount )}}
                                 </a>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad aut sunt cum, mollitia excepturi neque sint magnam minus aliquam, voluptatem, labore quis praesentium eum quae dolorum temporibus consequuntur! Non.</p>
+                            {!! $post->author->bio !!}
                         </div>
                     </div>
                 </article>
