@@ -22,38 +22,47 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $categories = Category::with(['posts' => function($query){
-            $query->published();
-        }])->orderBy('title', 'asc')
-            ->get();
+        $categories = $this->getAllCategories();
 
         $posts = Post::with('author')
             ->latestFirst()
             ->published()
             ->simplePaginate($this->limit);
+
         return view('blog.index')->with(compact('posts','categories'));
     }
 
-    public function category($id)
+    public function category(Category $category)
     {
-        $categories = Category::with(['posts' => function($query){
-            $query->published();
-        }])
-            ->orderBy('title', 'asc')
-            ->get();
+        $categoryName = $category->title;
+        $categories = $this->getAllCategories();
 
-        $posts = Post::with('author')
-            ->latestFirst()
-            ->published()
-            ->where('category_id', $id)
-            ->simplePaginate($this->limit);
-        return view('blog.index')->with(compact('posts','categories'));
+        $posts = $category->posts()
+                          ->latestFirst()
+                          ->with('author')
+                          ->published()
+                          ->simplePaginate($this->limit);
+
+        return view('blog.index')->with(compact('posts','categories', 'categoryName'));
     }
 
     public function show(Post $post)
     {
+        $categories = $this->getAllCategories();
         return view('blog.show')->with(compact('post','categories'));
     }
 
+    /**
+     * @return array
+     */
+    public function getAllCategories()
+    {
+        /** @var array $categories */
+        $categories = Category::with(['posts' => function($query){
+            $query->published();
+            }])->orderBy('title', 'asc')
+              ->get();
+        return $categories;
+    }
 
 }

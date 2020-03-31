@@ -6,6 +6,13 @@
         <div class="row">
             <div class="col-md-8">
                 @if(count($posts))
+
+                    @if(isset($categoryName))
+                        <div class="alert alert-info">
+                            <p>Category: <strong>{{ $categoryName }}</strong></p>
+                        </div>
+                    @endif
+
                     @foreach($posts as $post)
                     <article class="post-item">
 
@@ -28,7 +35,7 @@
                                 <ul class="post-meta-group">
                                     <li><i class="fa fa-user"></i><a href="#">{{ $post->author->name }}</a></li>
                                     <li><i class="fa fa-clock-o"></i><time>  {{ $post->date }}</time></li>
-                                    <li><i class="fa fa-tags"></i><a href="#"> Blog</a></li>
+                                    <li><i class="fa fa-folder"></i><a href="{{ route('category', $post->category->slug) }}">{{ $post->category->title }}</a></li>
                                     <li><i class="fa fa-comments"></i><a href="#">4 Comments</a></li>
                                 </ul>
                             </div>
@@ -40,7 +47,9 @@
                 </article>
                 @endforeach
                 @else
-                    <p>No records found</p>
+                    <div class="alert alert-warning">
+                        <p>No records found</p>
+                    </div>
                 @endif
                 <nav>
                     {{ $posts->links() }}
