@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AlterUsersAddBioColumn extends Migration
+class AlterPostsToAddViewCountColumn extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ class AlterUsersAddBioColumn extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->text('bio');
+        Schema::table('posts', function (Blueprint $table) {
+            $table->integer('view_count');
         });
     }
 
@@ -25,8 +25,8 @@ class AlterUsersAddBioColumn extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('bio');
+        Schema::table('posts', function (Blueprint $table) {
+            $table->dropColumn('view_count');
         });
     }
 }

@@ -24,13 +24,13 @@ class BlogController extends Controller
     public function index()
     {
         $categories = $this->getAllCategories();
-
+        $popularPosts = $this->popularPosts();
         $posts = Post::with('author')
             ->latestFirst()
             ->published()
             ->simplePaginate($this->limit);
 
-        return view('blog.index')->with(compact('posts','categories'));
+        return view('blog.index')->with(compact('posts','categories', 'popularPosts'));
     }
 
     public function category(Category $category)
@@ -49,21 +49,9 @@ class BlogController extends Controller
 
     public function show(Post $post)
     {
+        $popularPosts = $this->popularPosts();
         $categories = $this->getAllCategories();
-        return view('blog.show')->with(compact('post','categories'));
-    }
-
-    /**
-     * @return array
-     */
-    public function getAllCategories()
-    {
-        /** @var array $categories */
-        $categories = Category::with(['posts' => function($query){
-            $query->published();
-            }])->orderBy('title', 'asc')
-              ->get();
-        return $categories;
+        return view('blog.show')->with(compact('post','categories', 'popularPosts'));
     }
 
     public function author(User $author)
@@ -79,4 +67,26 @@ class BlogController extends Controller
 
         return view('blog.index')->with(compact('posts','categories', 'authorName'));
     }
+
+    /**
+     * @return array
+     */
+    public function popularPosts()
+    {
+        $popularPosts = Post::published()->popular()->take(3)->get();
+        return $popularPosts;
+    }
+    /**
+     * @return array
+     */
+    public function getAllCategories()
+    {
+        /** @var array $categories */
+        $categories = Category::with(['posts' => function($query){
+            $query->published();
+        }])->orderBy('title', 'asc')
+            ->get();
+        return $categories;
+    }
+
 }
