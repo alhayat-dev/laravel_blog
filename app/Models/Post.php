@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Post extends Model
 {
-
+    protected $fillable = ['view_count'];
 
     protected $dates = ['published_at'];
     /**

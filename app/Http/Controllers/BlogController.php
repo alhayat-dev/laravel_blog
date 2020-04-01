@@ -49,6 +49,7 @@ class BlogController extends Controller
 
     public function show(Post $post)
     {
+        $this->viewCount($post);
         $popularPosts = $this->popularPosts();
         $categories = $this->getAllCategories();
         return view('blog.show')->with(compact('post','categories', 'popularPosts'));
@@ -89,4 +90,9 @@ class BlogController extends Controller
         return $categories;
     }
 
+    public function viewCount($post)
+    {
+        $viewCount = $post->view_count + 1;
+        $post->update(['view_count' => $viewCount]);
+    }
 }
