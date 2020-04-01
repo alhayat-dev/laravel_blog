@@ -2,7 +2,10 @@
 
 namespace App;
 
+use App\Models\Post;
+use GrahamCampbell\Markdown\Facades\Markdown;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -36,4 +39,31 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * @return HasMany
+     */
+    public function posts()
+    {
+        return $this->hasMany(Post::class, 'author_id');
+    }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
+    public function getBioHtmlAttribute($value)
+    {
+        return $this->bio ? Markdown::convertToHtml(e($this->bio)) : NULL;
+    }
+
+    public function gravatar()
+    {
+        $email = $this->email;
+        $default = asset('img/author.jpg');
+        $size = 100;
+
+        return "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
+    }
 }

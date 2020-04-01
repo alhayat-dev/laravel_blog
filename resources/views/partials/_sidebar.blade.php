@@ -17,26 +17,14 @@
             </div>
             <div class="widget-body">
                 <ul class="categories">
-                    <li>
-                        <a href="#"><i class="fa fa-angle-right"></i> Web Development</a>
-                        <span class="badge pull-right">10</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-angle-right"></i> Web Design</a>
-                        <span class="badge pull-right">10</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-angle-right"></i> General</a>
-                        <span class="badge pull-right">10</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-angle-right"></i> DIY</a>
-                        <span class="badge pull-right">10</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-angle-right"></i> Facebook Development</a>
-                        <span class="badge pull-right">10</span>
-                    </li>
+                    @foreach($categories as $category)
+                        <li>
+                            <a href="{{ route('category', $category->slug) }}">
+                                <i class="fa fa-angle-right"></i>{{ $category->title }}
+                            </a>
+                            <span class="badge pull-right">{{ $category->posts->count() }}</span>
+                        </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
@@ -47,45 +35,24 @@
             </div>
             <div class="widget-body">
                 <ul class="popular-posts">
-                    <li>
-                        <div class="post-image">
-                            <a href="#">
-                                <img src="{{ asset('img/Post_Image_5_thumb.jpg') }}" />
-                            </a>
-                        </div>
+                    @foreach($popularPosts as $popularPost)
+                        <li>
+                        @if($popularPost->image_thumb_url)
+                            <div class="post-image">
+                                <a href="{{ route('blog.show', $popularPost->slug) }}">
+                                    <img src="{{ $popularPost->image_thumb_url }}" />
+                                </a>
+                            </div>
+                        @endif
+
                         <div class="post-body">
-                            <h6><a href="#">Blog Post #5</a></h6>
+                            <h6><a href="{{ route('blog.show', $popularPost->slug) }}">{{ $popularPost->title }}</a></h6>
                             <div class="post-meta">
-                                <span>36 minutes ago</span>
+                                <span>{{ $popularPost->date }}</span>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="post-image">
-                            <a href="#">
-                                <img src="{{ asset('img/Post_Image_4_thumb.jpg') }}" />
-                            </a>
-                        </div>
-                        <div class="post-body">
-                            <h6><a href="#">Blog Post #4</a></h6>
-                            <div class="post-meta">
-                                <span>36 minutes ago</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="post-image">
-                            <a href="#">
-                                <img src="{{ asset('img/Post_Image_3_thumb.jpg') }}" />
-                            </a>
-                        </div>
-                        <div class="post-body">
-                            <h6><a href="#">Blog Post #3</a></h6>
-                            <div class="post-meta">
-                                <span>36 minutes ago</span>
-                            </div>
-                        </div>
-                    </li>
+                    @endforeach
                 </ul>
             </div>
         </div>

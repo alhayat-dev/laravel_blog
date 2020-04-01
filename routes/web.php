@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('blog.index');
-});
+Route::get('/', 'BlogController@index')->name('blog');
 
-Route::get('/blog/show', function () {
-    return view('blog.show');
-});
+Route::get('/blog/{post}', 'BlogController@show')->name('blog.show');;
+Route::get('/category/{category}', 'BlogController@category')->name('category');
+Route::get('/author/{author}', 'BlogController@author')->name('author');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
