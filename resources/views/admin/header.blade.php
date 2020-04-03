@@ -15,22 +15,24 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a> -->
+        @php
+            $currentUser = Auth::user();
+        @endphp
 
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="{{ asset('backend/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
+                        <img src="{{ is_null($currentUser) ? asset('img/user2-160x160.jpg') : $currentUser->gravatar() }}" class="user-image" alt="{{ Auth::user()->name }}">
                         <span class="hidden-xs">Alexander Pierce</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="{{ asset('backend/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
+                            <img src="{{ is_null($currentUser) ? asset('img/user2-160x160.jpg') : $currentUser->gravatar() }}" class="img-circle" alt="{{ Auth::user()->name }}">
 
                             <p>
-                                Alexander Pierce - Web Developer
-                                <small>Member since Nov. 2012</small>
+                                {{ Auth::user()->name }} - Web Developer
                             </p>
                         </li>
                         <!-- Menu Footer-->

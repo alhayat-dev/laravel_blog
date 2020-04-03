@@ -2,213 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41e653d9-7d35-4b36-a62c-ae64988d12eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/backend/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/simple-mde/simplemde.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/plugins/simple-mde/simplemde.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/backend.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/blog/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/blog/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/js/jasny-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/js/jasny-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/backend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/backend.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X018c743951e101f2edf1e545fb711408.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0472a7587fc383a2b65e02c1ee76bab7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X07f2a279b9247892d4e064c88a7a04fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X084c9eb952e8d52c5e9c285098dc0017.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X08a275e87ce9182ce6e8f311221e7a24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X08a49f204a838e3bbfc295837b98c169.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0b18b3f71f5b58d97c275fb5f18fc4d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X136b0c2e47d75b363c9ac1477091439a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X15d6ebade9ea83d1e97db70fb7a80d23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1705275c7c37e998ed434c19ec650ddf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X173035384ff38fa2f43f4728f5e96f9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X19d66855ebfc25b8e7697eeaf29e5822.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1b1345a05db408e1beae568853ea23cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1baacb0a9aefd7e27d1bc03ca4d2dd87.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1c3c41e0a248fef4f75864bfc351c8d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1f0332053df79630d7fb35cf222c0f13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X23e5ab5f8278f81f69135ec979fcda3e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2410138a6cdd4d48b4b083f65abe112d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2893c846f7e72a01f5477ac580c9f1e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2ec51034cb024503ccd4516b9f2f4c6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X32da9df7214e7c58a19ee93442da7265.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X33357bc42d7ee46acaa58df5027167e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X348436a9ab6f6fe0b426bd02d6fded46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X37010b5a7cd5cca66bfe60670fd5aa9b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3775072698bc4e16c8d1636b186d27a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3a14def8bed4bb304d6caa173b419837.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3d70e248884b7081f43af83c817c4e9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3e1129322fe2801241008d6ae0403c30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4ae29b6ea18a084dc57b0d2c32183e42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4f5f50982377125f3f61cc56e642886c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X52e8624aefdac4e066a1570ad1e0e4da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X53da46ee56f3601e068065b659bef647.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X57eb463d8d49d1f45b4da47956b6b13a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X596e32de2199088199767b0ff0ac4103.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5ab564af17ed2d2e9feec52c1998694c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X623a892c52942d6f58be8495d531678c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X66bacc78df00d8f91d272d5d7317ea4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X66c68ce08d576311eb86508f49c67978.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X681d54d0d167770d6474fa1c4b5e130d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X687509564eeab105c4942888d9601b7f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6c2774306a2a17f009591fe2c8cea466.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6ca57dd134307c4ecbb31bc0ca1ed0f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6d01284eb1fadf7b47115ea28b52961f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6dba80e15198c72e3731dd2e3cbb3628.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X70d3ef4656f9a59ca6fb1a866062b581.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7f0b9b889356280a5ad7873d3cb7fe4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X80bdd849823e52a2ce89454764411164.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X817fc550102ecb253e4f9c6f3747feea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X829790379eba49f23b1a9ae394213255.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X910d85e0b6c71aa2cc2bbafe07d16d63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X917feefb2ca82dd679e586b129c2103a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X921699dc0205e3ac2588845a471b3373.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9749e09797395e610423203ac5536378.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X98a225a1fc6677db43d7e2da12162d14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X99747551e29b0e6d4a8b357bcc4cfc14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9fe4c28764aa73b823e61fa2cb28d637.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa06398b5e2de65a282ce8b2f50e36a03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa16457b810ef6d6fa7a33b67e1dc52a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa247d09f8fd29d19b8adccdd9f3a4750.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa397300aa0eca271a82c20446f5c13cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa637e367c879fc23cea62b9afd8a1612.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa668b53ec5993c37783c9a7d79bbc722.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb01c17831f387695856fd4557787fa7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb020ff9fafb45f5a2f48c6f7d73765a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb258fa2b004544b714c61b2999b1fb65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb32eba2bfd49e5a68b2101ac65daa52d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb5029491749d57694bd1191f5e3e6401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb63d08fc545b10092fde6f0fa6fea78e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xba15c932bbbb032ea84b47d46b7db825.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc167fbeb2e07da064dafc0b9ae7076e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc2937870a7b16749c2e37de95f85dd02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xdeb83818b61881c573fd0bb200f39952.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe078324c0ea95b0b7e9683c2253c78ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xee7ec6a44a7fcfaac2c72235fd571832.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xef189c7bc76fab6bc54fcf4a9a5cc0f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf03c33074c23d79d77ee98ad2c835b42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf3e19a4c4cbbe7b76cfbbd99b097611c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf4b96d012058e776e460e29758fc1ac0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf90b246bdafcbb62eef0d00cd444cf34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf9cc0e5399c76fca7d8974106c7352f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfa26af20ece1d61f7d91e54c563d7c41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfe08ee7d72390328d1e0e6baa36e5d70.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585451289491</updated>
       <workItem from="1585451293146" duration="4740000" />
-      <workItem from="1585458801602" duration="44210000" />
+      <workItem from="1585458801602" duration="53289000" />
     </task>
     <servers />
   </component>
@@ -393,6 +320,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1585722960510" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585886986041">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1585886986041" />
     <state x="441" y="310" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585451306914">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

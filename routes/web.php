@@ -22,3 +22,7 @@ Route::get('/author/{author}', 'BlogController@author')->name('author');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::namespace('Backend')->prefix('backend')->name('backend.')->group(function (){
+    Route::resource('blog', 'BlogController');
+});
